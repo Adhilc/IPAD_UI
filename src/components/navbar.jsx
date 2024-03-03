@@ -10,7 +10,7 @@ export default function navbar() {
                     <img className='w-24' src={log} alt="shoeze" />
                     <a className='font-kanit uppercase text-2xl sm:text-3xl tracking-widest font-bold text-white '>premier</a>
                 </div>
-                <div className=' justify-between items-center gap-4 hidden lg:block'>
+                <div className='justify-between items-center gap-4 hidden lg:block'>
                     <ul className='flex items-center gap-6'>
                         <li><a href="" className='text-xl text-gray-300 hover:text-white duration-200 font-kanit'>Home</a></li>
                         <li><a href="#about-us" className='text-xl text-gray-300 hover:text-white duration-200  font-kanit'>About Us</a></li>

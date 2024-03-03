@@ -5,14 +5,14 @@ export default function footer() {
   return (
     <div id='explore' className='p-4 bg-black'>
         <div className='container'>
-            <div className='w-100% h-100hv bg-black relative'>
-                <video className='hidden sm:block w-screen sm:h-100% h-full object-cover blur-sm ' src={videobg2} autoPlay muted loop />
+            <div className='w-100% h-screen sm:h-100hv bg-black relative'>
+                <video className=' w-screen sm:h-100% h-full object-cover blur-sm ' src={videobg2} autoPlay muted loop />
                 <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 '>
-                    <div className=' pl-10 flex flex-col items-center gap-4 absolute top-10 sm:top-1/2'>
+                    <div className=' pl-10 flex flex-col items-center gap-4 absolute top-10 left-20 sm:left-0 sm:top-1/2'>
                         <h1 data-aos="zoom-out" className=' font-kanit text-2xl sm:text-4xl text-white'>Sign Up to get</h1>
                         <h1 data-aos="zoom-out" className=' font-bold font-kanit text-6xl sm:text-7xl text-white'>Explore</h1>
                     </div>
-                    <div data-aos="fade-up" data-aos-offset="0" data-aos-duration="500" data-aos-delay="300" className='bg-white  absolute right-10 sm:top-1/3 sm:right-20 h-[500px] w-[400px] rounded-xl'>
+                    <div data-aos="fade-up" data-aos-offset="0" data-aos-duration="500" data-aos-delay="300" className='bg-white  absolute right-10 top-1/3 sm:top-1/3 sm:right-20 h-[500px] w-[400px] rounded-xl shadow-sm shadow-gray-300'>
                         <form className='flex flex-col gap-4 items-center space-y-4'>
                             <h1 className='mt-4 font-kanit font-bold text-black text-2xl sm:text-4xl'>welcome to premier</h1>
                             <p  className='text-black font-kanit'>find your dream car</p>
